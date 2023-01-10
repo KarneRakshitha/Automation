@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+<!--Included Cross Browsing Testing-->
+<!--Chrome Test will be procced by Chrome Browser-->
+  <test name="ChromeTest">
+  <!--Passing Parameters to Open Chrome Browser-->
+  <parameter name="Browser" value="Chrome Browser"/>
+    <classes>
+      <class name="Project_1.Swag_Labs_1"/>        
+    </classes>
+ </test>
+ <!--Edge Test will be procced by Edge Browser-->
+<test name="EdgeTest">
+<!--Passing Parameters to Open Edge Browser-->
+ <parameter name="Browser" value="Edge Browser" />
+  <classes>
+    <class name="Project_1.Swag_Labs_1">
+  </class>
+ </classes>
+</test>
+</suite> <!-- Suite -->
